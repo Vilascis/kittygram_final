@@ -29,7 +29,7 @@ services:
       - static:/static
     depends_on:
       - backend
-    
+
   gateway:
     image: vilascis/kittygram_gateway
     env_file: .env
