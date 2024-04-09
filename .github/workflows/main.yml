@@ -168,7 +168,7 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
-          Деплой kittygram успешно выполнен!
+          Деплой kittygram успешно выполнен Ура!
           Автор: ${{ github.actor }}
           Причина: ${{ github.event.commits[0].message }}
           Ссылка на коммит: https://github.com/${{ github.repository }}/commit/${{ github.sha }}
